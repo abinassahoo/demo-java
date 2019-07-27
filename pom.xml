@@ -23,6 +23,14 @@
         <artifactId>maven-war-plugin</artifactId>
         <version>3.0.0</version>
       </plugin>
+          <!--*************************************************-->
+    <!-- Deploy to Tomcat in App Service Linux           -->
+    <!--*************************************************-->
+    <plugin>
+        <groupId>com.microsoft.azure</groupId>
+        <artifactId>azure-webapp-maven-plugin</artifactId>
+        <version>1.7.0</version>
+    </plugin>
     </plugins>
   </build>
   <dependencies>
